@@ -1,0 +1,10 @@
+let student={
+    name:"manish",
+    age:24,
+    cgpa:6.7,
+    isPass:true,
+
+
+};
+student["age"]=student["age"]+2;
+console.log(student["age"]);
