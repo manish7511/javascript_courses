@@ -1,0 +1,8 @@
+function dd(start:1,end:100);{
+    let sum=0;
+    for(var i=start;i<end;i++){
+        sum=sum+i;
+    }
+
+    return sum
+}
