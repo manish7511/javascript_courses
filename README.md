@@ -1,1 +1,1 @@
-full stack development
+this is full stack course
