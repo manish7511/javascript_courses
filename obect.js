@@ -1,9 +1,9 @@
 const alluser=[{
     firstname:"manish",
-    gender:"male"
+    gender:"male",
 },{
     firstname:"sinku",
-    gender:"male"
+    gender:"male",
 
 },{
     firstname:"harshita",
