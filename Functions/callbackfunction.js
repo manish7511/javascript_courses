@@ -2,8 +2,10 @@ function greet(a,b,operation){
     return operation(a,b);
 }
 
-function manish(){
-    console.log("i a am callback function");
-}
+const addition=greet(1,2,function(num1,num2){
+    return num1+num2;
+})
 
-greet(1,2,manish);
+const subtraction =(a,b)=> a-b;
+const subresult=greet(1,2,subtraction);
+console.log(subtraction);

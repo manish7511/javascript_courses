@@ -8,4 +8,5 @@ function displayresult(data){
 function displayresultpassive(data){
     console.log("sum result is: ",+ data);
 }
-const ans=sum(1,2,displayresult);
+const val=sum(1,2,displayresult)
+console.log(val)
