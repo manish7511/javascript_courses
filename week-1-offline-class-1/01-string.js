@@ -77,3 +77,10 @@ console.log(u);
 let s="    manish singh  "
 let e=s.trimStart();
 console.log(e);
+
+//  substr 
+let var1="manish singh";
+let var2=var1.substr(2,5);
+console.log(var2);
+
+//  
